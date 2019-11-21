@@ -3,7 +3,7 @@ from Person import Person
 
 class Textbook():
 
-    def __init__(self, title, first, last, age, Person, author, edition, number, publisher, year_published, quantity, price):
+    def __init__(self, title, first, last, age, author, edition, number, publisher, year_published, quantity, price):
         self.title = title
         self.author = author(Person(first, last, age))
         self.edition = edition
